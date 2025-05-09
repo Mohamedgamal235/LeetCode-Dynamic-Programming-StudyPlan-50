@@ -12,7 +12,7 @@ class Solution {
             if (mem[n] != -1)
                 return mem[n] ;
     
-            return mem[n] = dp(n-1) + dp(n-2) ;
+            return mem[n] = dp(n-1) + dp(n - 2) ;
         }
     
         int climbStairs(int n) {
